@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>course details</title>
+    <style>
+        *{
+            padding: 0;margin: 0;
+            box-sizing: border-box;
+
+        }
+        body, html{
+            overflow-x: hidden;
+            height: 100%;
+            margin: 0;
+        }
+        nav{
+            background-color: rgb(5, 46, 91);
+            width: 100vw;
+            height: 5rem;
+            overflow: hidden;
+
+        }
+        .nav-bar{
+            color: red;
+            font-size: 2rem;
+            font-weight: 800;
+            /* border-bottom: 1px solid black; */
+            padding-top: 1rem;
+            animation: moveLeftToRight 8s linear infinite;
+            cursor: pointer;
+
+
+        }
+        .nav-bar:hover{
+            animation-play-state: paused;
+        }
+        @keyframes moveLeftToRight {
+            0%{
+                transform: translateX(0);
+            }
+            100%{
+                transform: translateX(100%);
+            }
+            
+        }
+        .box-head{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+            
+
+
+         }
+        .box{
+            width: 20%;
+            /* height: ; */
+            line-height: 1.3;
+            padding: 2rem;
+            border-radius: 2rem;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        }
+        .box:hover{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        .box img{
+            width: 100%;
+            height: 45%;
+        }
+        .box p{
+            width: 100%;
+            font-size: 1.5rem;
+        }
+        .box button{
+            text-decoration: none;
+            color: white;
+            background-color:green;
+            border: none;
+            padding: 0.5rem;
+            border-radius: 2rem;
+            margin-top: 1rem;
+            font-size: 1rem;
+
+        }
+        .box button:hover{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-bar">
+            <p>Free Free Free  programming courses Available</p>
+        </div>
+    </nav>
+    <hr>
+    <div class="box-head">
+    <div class="box">
+        <img src="https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/1309974/regular_1708x683_cover-0828_AfterAllTheseYearstheWorldisStillPoweredbyCProgramming_Razvan_Newsletter-2b9ea38294bb08c5aea1f0c1cb06732f.png" alt=" c language image">
+        <h1>C language</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dicta facilis dignissimos magni dolore. A explicabo obcaecati, natus quis tenetur autem debitis! lorem10 Lorem ipsum dolor sit, amet consectetur adipisicing elit. est</p>
+        <a href="https://youtu.be/KJgsSFOSQv0?si=ZkRtDUk_tKF6laqL"> <button>Start Watching</button></a>
+    </div>
+    <div class="box">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt=" JavaScript">
+        <h1>JavaScript</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dicta facilis dignissimos magni dolore. A explicabo obcaecati, natus quis tenetur autem debitis! lorem10 Lorem ipsum dolor sit, amet consectetur adipisicing elit. est</p>
+        <a href="https://youtu.be/PkZNo7MFNFg?si=oh2CtK8HIGDxNQ5m"> <button>Start Watching</button></a>
+    </div>
+    <div class="box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQavfGr9RINf1lth4AWIVbKX6kg8RN95nUxJUFcLfJefA&s" alt=" Python">
+        <h1>Python </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dicta facilis dignissimos magni dolore. A explicabo obcaecati, natus quis tenetur autem debitis! lorem10 Lorem ipsum dolor sit, amet consectetur adipisicing elit. est</p>
+        <a href="https://youtu.be/rfscVS0vtbw?si=V_gA__QsT_DaeVsO"> <button>Start Watching</button></a>
+    </div>
+</div>
+<div class="box-head">
+    <div class="box">
+        <img src="https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Logo.jpg" alt=" Mongo DB">
+        <h1>Mongo DB</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dicta facilis dignissimos magni dolore. A explicabo obcaecati, natus quis tenetur autem debitis! lorem10 Lorem ipsum dolor  adipisicing elit. est</p>
+        <a href="https://youtu.be/E-1xI85Zog8?si=ZQRCXf90RtXRXJPY"> <button>Start Watching</button></a>
+    </div>
+    <div class="box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Yb5PmOSM_Cz_565x3J76BxUDH72wfJS5mkj-Q3Yoow&s" alt=" My SQL">
+        <h1>My SQL</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dicta facilis dignissimos magni dolore. A explicabo obcaecati, natus quis tenetur autem debitis! lorem10 Lorem ipsum dolor  adipisicing elit. est</p>
+        <a href="https://youtu.be/HXV3zeQKqGY?si=8Km0kX0zC52zXN3j"> <button>Start Watching</button></a>
+    </div>
+    <div class="box">
+        <img src="https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png" alt=" Java">
+        <h1>Java</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dicta facilis dignissimos magni dolore. A explicabo obcaecati, natus quis tenetur autem debitis! lorem10 Lorem ipsum amet  adipisicing elit. est</p>
+        <a href="https://youtu.be/A74TOX803D0?si=rKqKVMgN_JZBMLqW"> <button>Start Watching</button></a>
+    </div>
+</div>
+</body>
+</html>

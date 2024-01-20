@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us form</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .contactBox {
+            background-color: rgb(78, 124, 172);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+
+
+
+
+        }
+        .box1 {
+    width: 20vw;
+    font-size: 2rem;
+}
+input{
+    width: 29vw;
+    height: 3rem;
+    font-size: 2rem;
+}
+textarea{
+    font-size: 1rem;
+}
+button{
+    background-color: green;
+    width: 19rem;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 0.2rem;
+    padding: 1rem 0;
+    border: none;
+    font-weight: 700;
+}
+button:hover{
+    background-color:rgba(0, 0, 255, 0.61) ;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="contactBox">
+        <div class="box1">
+            <h1> <u>Contact us:</u></h1>
+            <br>
+            <label  for="">Name:</label>
+            <br>
+            <input id="nameSection" type="text">
+            <br>
+            <label for="">Email:</label>
+            <br>
+            <input type="email">
+            <br>
+            <label for="">Message:</label>
+            <br>
+            <textarea name="" id="" cols="60" rows="20"></textarea>
+            <br>
+            <button id ="btn">Send Message</button>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $('#nameSection').click(function(){
+                alert("Welcome to our contact us page click okay to Add details")
+
+            })
+            $("#btn").click(function(){
+                alert("Thank you for contacting us will get in touch as soon as possible")
+            })
+        })
+
+    </script>
+</body>
+
+</html>
